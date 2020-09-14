@@ -16,8 +16,6 @@ def hopper
         }
      }
      programmer_hash[:grace_hopper]
-
-
 end
 
 def alan_kay_is_known_for
@@ -88,11 +86,6 @@ def adding_matz
       ["LISP", "C"]
     }
     programmer_hash
-        
- 		 
-     
-
-    
 end
 
 def changing_alan
@@ -115,8 +108,6 @@ def changing_alan
      alans_new_info = "GUI"
      programmer_hash[:alan_kay][:known_for] = "GUI"
      programmer_hash
-     
-     
 end
 
 def adding_to_dennis
@@ -135,5 +126,6 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
+     programmer_hash[:dennis_ritchie]
 
 end
